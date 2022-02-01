@@ -1,0 +1,15 @@
+{
+    "title": "Input schema for the actor.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "url": {
+            "title": "URL to scrape",
+            "type": "string",
+            "description": "URL to scrape and extract HTML from",
+            "editor": "textfield",
+            "prefill": "https://apify.com"
+        }
+    },
+    "required": ["url"]
+}
