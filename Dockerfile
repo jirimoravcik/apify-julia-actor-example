@@ -4,4 +4,5 @@ WORKDIR /app
 COPY . .
 
 RUN julia install.jl
-RUN julia main.jl
+
+CMD ["julia", "main.jl"]
