@@ -8,7 +8,7 @@
             "type": "string",
             "description": "URL to scrape and extract HTML from",
             "editor": "textfield",
-            "prefill": "https://apify.com"
+            "prefill": "https://example.com"
         }
     },
     "required": ["url"]
